@@ -38,7 +38,7 @@ void ADC_Init()
 void ADC_StartConversion()
 {
 	// Start ADC conversion
-	ADCSRA |= (1 << ADSC);
+	SET_BIT(ADCSRA, ADSC);
 }
 
 ISR(ADC_vect)
