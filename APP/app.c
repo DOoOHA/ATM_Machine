@@ -45,7 +45,7 @@ void modules_init (void)
 
 
 
-void current_salary()
+void current_salary() 
 {
 	ADC_StartConversion();
 	LCD_Send_vCmd(CLEAR_SCREEN);
