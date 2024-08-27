@@ -16,14 +16,14 @@
 #define F_CPU 8000000UL
 #include <util/delay.h>
 #include <avr/interrupt.h>
-#include "bitwise_macros.h"
-#include "TIMERS.h"
-#include "KeyPad.h"
-#include "EEPROM.h"
-#include "LCD.h"
-#include "DIO.h"
-#include "LED.h"
-#include "ADC.h"
+#include "../MCAL/bitwise_macros.h"
+#include "../MCAL/TIMERS.h"
+#include "../HAL/KeyPad.h"
+#include "../MCAL/EEPROM.h"
+#include "../HAL/LCD.h"
+#include "../MCAL/DIO.h"
+#include "../HAL/LED.h"
+#include "../MCAL/ADC.h"
 
 extern volatile unsigned char temperature;
 unsigned int current_balance = 1500;
