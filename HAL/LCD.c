@@ -7,7 +7,7 @@
 
 #define F_CPU 8000000UL
 
-#include "DIO.h"
+#include "../MCAL/DIO.h"
 #include "LCD.h"
 #include <util/delay.h>
 
