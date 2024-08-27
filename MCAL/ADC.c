@@ -13,7 +13,7 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include "bitwise_macros.h"
-#include "app.h"
+#include "../APP/app.h"
 
 volatile unsigned char temperature;
 volatile float adc_result;
